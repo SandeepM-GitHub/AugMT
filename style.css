@@ -1,0 +1,165 @@
+body {
+  font-family: sans-serif !important;
+  font-family: ABeeZee !important;
+}
+
+.my-nav {
+  color: #4f4f4f !important;
+  padding-left: 30px;
+}
+
+.announcement {
+  color: #ffff;
+  background-color: #2f80ed;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.hero-section {
+  display: flex;
+}
+
+.hero-text h1 {
+  font-style: italic;
+  color: #2b2f34;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 65px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+.hero-text p,
+.hero-card p {
+  color: #212529;
+}
+
+.hero-section .hero-text {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.hero-section .hero-features img {
+  width: 82%;
+  padding: 10px;
+}
+
+.hero-card {
+  background-color: #ffff;
+  width: 300px;
+  height: 400px;
+  margin-right: 20px;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: inset 5px 5px 10px rgba(5, 0, 0, 0),
+    inset -5px 5px 10px rgba(0, 0, 0, 0.5), inset 5px -5px 10px rgba(0, 0, 0, 0),
+    inset -5px -5px 10px rgba(0, 0, 0, 0);
+}
+
+.hero-card h2 {
+  font-style: italic;
+  color: #2b2f34;
+}
+
+.hero-card button {
+  border-radius: 5px;
+  background: linear-gradient(276.97deg, #992fed 0%, #2f80ed 100%);
+  color: #ffff;
+  border: none;
+  width: 75%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.hero-card p span {
+  color: #2f80ed;
+}
+
+.courses {
+  background-color: #ecf8ff;
+}
+
+.courses .course-head {
+  text-align: center;
+}
+
+.courses .course-head p {
+  color: #6756ed;
+  padding-top: 50px;
+}
+
+.courses .course-head h2 {
+  color: #2f80ed;
+  font-weight: 400;
+}
+
+.beginner-card, .inter-card {
+  background-color: #ffff;
+  width: 498px;
+  height: 563px;
+  border-radius: 9px;
+  border: 2px;
+  text-align: center;
+}
+
+.course-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beginner-card table{
+    text-align: justify;
+    margin-left: 60px;
+}
+
+.beginner-card table tr td{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.beginner-card .j-g, .beginner-card .l-a{
+    background-color: #e0f3ff;
+    border-radius: 3px;
+    color: #1d78b0;
+    font-size: 12px;
+    width: 120px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.beg-container{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 0px;
+}
+
+.inter-card table{
+    text-align: justify;
+    margin-left: 60px;
+}
+
+.inter-card table tr td{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.inter-card .j-g, .inter-card .l-a{
+    background-color: #FFEED8;
+    border-radius: 3px;
+    color: #965400;
+    font-size: 12px;
+    width: 120px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.inter-container{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 0px;
+}
